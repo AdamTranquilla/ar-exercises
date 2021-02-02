@@ -26,6 +26,10 @@ Store.create(
   womens_apparel: true
 )
 
+@store4 = Store.find_by(id: 4)
+@store5 = Store.find_by(id: 5)
+@store6 = Store.find_by(id: 6)
+
 puts "#{Store.count} stores total"
 
 puts "----------MENS ONLY----------"

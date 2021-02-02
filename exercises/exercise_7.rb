@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+new_name = gets.chomp
+created_store = Store.create(name: "#{new_name}")
+p created_store.errors.messages
