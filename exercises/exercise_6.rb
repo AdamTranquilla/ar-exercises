@@ -4,6 +4,7 @@ require_relative './exercise_2'
 require_relative './exercise_3'
 require_relative './exercise_4'
 require_relative './exercise_5'
+# require "securerandom"
 
 puts "Exercise 6"
 puts "----------"
